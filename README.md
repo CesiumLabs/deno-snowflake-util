@@ -8,7 +8,7 @@ Default epoch is `1420070400000`.
 ## Generate random Snowflake
 
 ```js
-import Snowflake from "https://raw.githubusercontent.com/Snowflake107/deno-snowflake-util/master/mod.ts";
+import Snowflake from "https://deno.land/x/snowflake@v1/mod.ts";
 const snowflake = new Snowflake();
 
 console.log(snowflake.generate());
@@ -18,7 +18,7 @@ console.log(snowflake.generate());
 ## Deconstruct Snowflake
 
 ```js
-import Snowflake from "https://raw.githubusercontent.com/Snowflake107/deno-snowflake-util/master/mod.ts";
+import Snowflake from "https://deno.land/x/snowflake@v1/mod.ts";
 const snowflake = new Snowflake();
 
 console.log(snowflake.deconstruct("756403198394237027"));
